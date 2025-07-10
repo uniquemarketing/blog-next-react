@@ -17,7 +17,9 @@ export function PostHeading({
   const commonClass = "font-extrabold";
   return (
     <Tag className={clsx(headingClassMap[Tag], commonClass)}>
-      <Link href={url}>{children}</Link>
+      <Link className="group-hover:text-slate-600 transition" href={url}>
+        {children}
+      </Link>
     </Tag>
   );
 }
