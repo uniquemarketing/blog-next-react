@@ -36,8 +36,8 @@ export class DrizzlePostRepository implements PostRepository {
   }
 }
 
-(async () => {
-  const repo = new DrizzlePostRepository();
-  const posts = await repo.findAllPublic();
-  posts.forEach((post) => console.log(post.slug, post.published));
-})();
+// (async () => {
+//   const repo = new DrizzlePostRepository();
+//   const posts = await repo.findAllPublic();
+//   posts.forEach((post) => console.log(post.slug, post.published));
+// })();

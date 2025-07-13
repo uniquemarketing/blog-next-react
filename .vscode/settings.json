@@ -1,10 +1,14 @@
 {
   "window.zoomLevel": 1,
   "breadcrumbs.enabled": false,
-  "editor.fontSize": 16,
-  "debug.console.fontSize": 16,
-  "terminal.integrated.fontSize": 16,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 28,
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "debug.console.fontSize": 18,
+  "terminal.integrated.fontSize": 18,
   "editor.glyphMargin": false,
+  "prettier.singleQuote": true,
   "workbench.activityBar.location": "default",
   "editor.lineNumbers": "on",
   "files.eol": "\n", // Final de linha sempre será LF
@@ -32,6 +36,9 @@
   },
 
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
